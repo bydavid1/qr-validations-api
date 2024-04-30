@@ -5,6 +5,6 @@ const { login } = require('../controllers/auth-controller');
 const router = express.Router();
 
 /* Get all employees */
-router.get('/login', login);
+router.post('/login', login);
 
 module.exports = router;
